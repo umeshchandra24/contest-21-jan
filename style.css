@@ -1,0 +1,40 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,605px);
+    height: 560;
+    gap: 10px;
+}
+.left-container{
+    background-color: #D9D9D9;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    height: 261px;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    
+}
+.right-container-item{
+    background-color: #D9D9D9;
+}
+.bottom{
+    grid-column: 1 / -1 ;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2,605px);
+    height: 238px;
+    column-gap: 10px;
+
+}
+.bottom-item{
+    background-color: #D9D9D9;
+}
+.container{
+    margin: 10px;
+}
+h1{
+    font-weight: 800;
+}
+
